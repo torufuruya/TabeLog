@@ -1,0 +1,16 @@
+table.sample1 {
+	width: 100%;
+	margin:20px 0px 50px;
+	border-top: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-spacing:0px;
+}
+table.sample1 tr th,table.sample1 tr td {
+	font-size: 12px;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	padding: 7px;
+}
+table.sample1 tr th {
+	background: #E6EAFF;
+}

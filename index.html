@@ -1,0 +1,27 @@
+<html>
+  <meta charset="utf-8">
+  <head>
+  	<!-- <script type="text/javascript" src="lib/jquery-2.0.3.min.js"></script> -->
+  	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  	<script src="lib/handlebars.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+  	<button class="submit">現在地周辺を検索</button>
+  	<div class="contents">
+  	</div>
+  	<script type="text/javascript" src="js/index.js"></script>
+  	<script type="text/x-handlebars-template" id="entry-template">
+	  <table class="sample1">
+	    <tr>
+	      <th>店名</th>
+	    </tr>
+	    {{#each list}}
+	    <tr>
+	      <td>{{RestaurantName}}</td>
+	    </tr>
+	    {{/each}}
+	  </table>
+  	</script>
+  </body>
+</html>
